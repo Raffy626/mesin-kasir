@@ -18,7 +18,7 @@ class SplashScreen extends StatelessWidget {
       ),
       body: Center(
         child: Image.asset(
-          'assets/furina.jpeg',
+          'assets/logo.png',
           width: 200,
           height: 200,
         ),
