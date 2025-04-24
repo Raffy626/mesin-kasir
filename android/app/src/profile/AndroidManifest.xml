@@ -1,0 +1,19 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Internet permission (sudah ada) -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <!-- Tambahkan izin lokasi di sini -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+    <!-- Optional: Untuk Android 10+ jika kamu butuh lokasi di background -->
+    <!-- <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION"/> -->
+
+    <application
+        android:label="your_app_name"
+        android:icon="@mipmap/ic_launcher">
+        
+        <!-- lainnya di sini (jangan ubah bagian ini kalau gak yakin) -->
+
+    </application>
+</manifest>
